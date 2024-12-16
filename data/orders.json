@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "user_id": 1,
+      "total_amount": 1444.97,
+      "created_at": "2024-12-16T10:00:00",
+      "status": "Paid"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "total_amount": 399.97,
+      "created_at": "2024-12-15T15:30:00",
+      "status": "Pending"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "total_amount": 19.99,
+      "created_at": "2024-12-14T18:00:00",
+      "status": "Delivered"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "total_amount": 129.99,
+      "created_at": "2024-12-12T12:00:00",
+      "status": "Cancelled"
+    },
+    {
+      "id": 5,
+      "user_id": 2,
+      "total_amount": 69.98,
+      "created_at": "2024-12-13T11:00:00",
+      "status": "Shipped"
+    }
+  ]  

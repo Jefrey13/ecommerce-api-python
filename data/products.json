@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Tel\u00c3\u00a9fono inteligente",
+        "description": "\u00c3\u0161ltimo modelo con funciones avanzadas.",
+        "price": 699.99,
+        "stock": 50,
+        "category_id": 1
+    },
+    {
+        "id": 2,
+        "name": "Computadora port\u00c3\u00a1til",
+        "description": "Laptop de alto rendimiento para trabajo y entretenimiento.",
+        "price": 1199.99,
+        "stock": 30,
+        "category_id": 1
+    },
+    {
+        "id": 3,
+        "name": "Auriculares inal\u00c3\u00a1mbricos",
+        "description": "Cancelaci\u00c3\u00b3n de ruido con larga duraci\u00c3\u00b3n de bater\u00c3\u00ada.",
+        "price": 129.99,
+        "stock": 100,
+        "category_id": 1
+    },
+    {
+        "id": 4,
+        "name": "Novela: El Gran Gatsby",
+        "description": "Un cl\u00c3\u00a1sico de F. Scott Fitzgerald.",
+        "price": 14.99,
+        "stock": 200,
+        "category_id": 2
+    },
+    {
+        "id": 5,
+        "name": "Libro de Programaci\u00c3\u00b3n: Python 101",
+        "description": "Aprende programaci\u00c3\u00b3n en Python desde cero.",
+        "price": 39.99,
+        "stock": 150,
+        "category_id": 2
+    },
+    {
+        "id": 6,
+        "name": "Ciencia Ficci\u00c3\u00b3n: Duna",
+        "description": "Una \u00c3\u00a9pica novela de ciencia ficci\u00c3\u00b3n por Frank Herbert.",
+        "price": 19.99,
+        "stock": 120,
+        "category_id": 2
+    },
+    {
+        "id": 7,
+        "name": "Camiseta",
+        "description": "Camiseta de algod\u00c3\u00b3n c\u00c3\u00b3moda en varios colores.",
+        "price": 19.99,
+        "stock": 300,
+        "category_id": 3
+    },
+    {
+        "id": 8,
+        "name": "Jeans",
+        "description": "Cl\u00c3\u00a1sicos jeans azules con un ajuste moderno.",
+        "price": 49.99,
+        "stock": 200,
+        "category_id": 3
+    },
+    {
+        "id": 9,
+        "name": "Chaqueta",
+        "description": "Chaqueta elegante para clima fr\u00c3\u00ado.",
+        "price": 89.99,
+        "stock": 100,
+        "category_id": 3
+    },
+    {
+        "id": 10,
+        "name": "Vestido",
+        "description": "Vestido elegante para ocasiones especiales.",
+        "price": 129.99,
+        "stock": 80,
+        "category_id": 3
+    }
+]

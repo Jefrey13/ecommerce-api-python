@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# Entornos virtuales
+env/
+venv/
+.venv/
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Configuración de Git
+*.orig
+
+# Archivos de salida
+*.out
+*.bak
+
+# Archivos de entorno
+.env
+.env.*
+
+# Carpeta de exportaciones o datos
+*.xlsx
+exports/
+
+# Archivos de pruebas
+*.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+
+# Módulos compilados
+*.so
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Node.js (si se usa npm para algo)
+node_modules/
+
+# Configuración de PyCharm o JetBrains
+*.iml
+.idea/

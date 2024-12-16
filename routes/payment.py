@@ -1,14 +1,27 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 from typing import List
 from models.Payment import Payment
-from services.payment import create_payment, get_payments_by_order
+from services.payment import (
+    create_payment,
+    get_payments_by_order
+)
 
-router = APIRouter()
+router = APIRouter(prefix="/payments", tags=["payments"])
 
-@router.post("/payments", response_model=Payment, tags=["payments"])
-def create_payment_endpoint(payment: Payment):
-    return create_payment(payment)
+@router.post("/", response_model=Payment)
+def add_payment(payment: Payment):
+    try:
+        return create_payment(payment)
+    except RuntimeError as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
-@router.get("/payments/{order_id}", response_model=List[Payment], tags=["payments"])
-def get_payments(order_id: int):
-    return get_payments_by_order(order_id)
+
+@router.get("/order/{order_id}", response_model=List[Payment])
+def read_payments_by_order(order_id: int):
+    try:
+        payments = get_payments_by_order(order_id)
+        if not payments:
+            raise HTTPException(status_code=404, detail=f"No se encontraron pagos para la orden con ID {order_id}.")
+        return payments
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

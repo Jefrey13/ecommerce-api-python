@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Electrónica",
+      "description": "Dispositivos, gadgets y accesorios."
+    },
+    {
+      "id": 2,
+      "name": "Libros",
+      "description": "Amplia variedad de literatura y materiales educativos."
+    },
+    {
+      "id": 3,
+      "name": "Ropa",
+      "description": "Ropa de moda y cómoda para todos."
+    }
+  ]  

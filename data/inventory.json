@@ -1,0 +1,52 @@
+[
+    {
+      "product_id": 1,
+      "quantity_available": 50,
+      "last_updated": "2024-12-16T10:00:00"
+    },
+    {
+      "product_id": 2,
+      "quantity_available": 30,
+      "last_updated": "2024-12-15T14:30:00"
+    },
+    {
+      "product_id": 3,
+      "quantity_available": 70,
+      "last_updated": "2024-12-14T09:45:00"
+    },
+    {
+      "product_id": 4,
+      "quantity_available": 10,
+      "last_updated": "2024-12-13T18:15:00"
+    },
+    {
+      "product_id": 5,
+      "quantity_available": 25,
+      "last_updated": "2024-12-15T12:00:00"
+    },
+    {
+      "product_id": 6,
+      "quantity_available": 100,
+      "last_updated": "2024-12-16T08:00:00"
+    },
+    {
+      "product_id": 7,
+      "quantity_available": 5,
+      "last_updated": "2024-12-15T19:00:00"
+    },
+    {
+      "product_id": 8,
+      "quantity_available": 15,
+      "last_updated": "2024-12-14T16:00:00"
+    },
+    {
+      "product_id": 9,
+      "quantity_available": 60,
+      "last_updated": "2024-12-15T11:30:00"
+    },
+    {
+      "product_id": 10,
+      "quantity_available": 40,
+      "last_updated": "2024-12-13T10:00:00"
+    }
+  ]  

@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "order_id": 1,
+      "payment_method": "Credit Card",
+      "payment_date": "2024-12-15T10:30:00",
+      "amount": 1444.97
+    },
+    {
+      "id": 2,
+      "order_id": 2,
+      "payment_method": "PayPal",
+      "payment_date": "2024-12-15T16:00:00",
+      "amount": 399.97
+    },
+    {
+      "id": 3,
+      "order_id": 3,
+      "payment_method": "Credit Card",
+      "payment_date": "2024-12-14T18:15:00",
+      "amount": 19.99
+    },
+    {
+      "id": 4,
+      "order_id": 4,
+      "payment_method": "Bank Transfer",
+      "payment_date": "2024-12-13T12:00:00",
+      "amount": 69.98
+    },
+    {
+      "id": 5,
+      "order_id": 5,
+      "payment_method": "Credit Card",
+      "payment_date": "2024-12-16T11:00:00",
+      "amount": 129.99
+    }
+  ]  
