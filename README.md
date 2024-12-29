@@ -26,7 +26,11 @@ This is a RESTful API for managing an E-commerce platform, built with **FastAPI*
 - **OpenPyXL** (for Excel export)
 
 ---
+# API documentation - Swagger UI
 
+![FastAPI](https://i.ibb.co/ryCxSdP/fastapi.png)
+
+---
 ## Endpoints
 ### **Products**
 - `GET /api/products` - Get all products
@@ -66,5 +70,3 @@ This is a RESTful API for managing an E-commerce platform, built with **FastAPI*
 - `GET /api/inventory` - Get inventory data
 
 ---
-
-![FastAPI](https://i.ibb.co/ryCxSdP/fastapi.png)
